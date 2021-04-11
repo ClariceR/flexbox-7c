@@ -17,6 +17,7 @@ body {
 header .logo {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 
 header .nav-menu {
@@ -29,10 +30,9 @@ header .nav-menu {
     padding: 0;
 }
 
-
-/* .hero {
-    border: 1px solid rgb(207, 87, 87);
-} */
+.nav-menu ul li {
+    padding-bottom: 1em;
+}
 
 .hero div {
     background: url(../img/download.jpg) center center no-repeat;
@@ -52,8 +52,8 @@ p {
 
 .one-third {
     flex: 1;
-    border-top: 1px solid slategray;
-    border-bottom: 1px solid slategray;
+    border-top: 1px solid chartreuse;
+    border-bottom: 1px solid chartreuse;
 }
 
 .one-third ul {
@@ -61,12 +61,20 @@ p {
     padding: 0.4em;
 }
 
-.one-third ul li, h3 {
-    padding: 0 2em;
-    line-height: 1.5em;
+.one-third ul li, h3, p {
+    padding: 1em 2em;
+    line-height: 2em;
 }
 
+.middle p {
+    font-style: italic;
+}
 
+h3 {
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
 
 h5 {
     display: flex;
@@ -98,8 +106,8 @@ h5 {
     }
 
     .middle {
-        border-left: 1px solid slategray;
-        border-right: 1px solid slategray;
+        border-left: 1px solid chartreuse;
+        border-right: 1px solid chartreuse;
     }
 
     .footer {
