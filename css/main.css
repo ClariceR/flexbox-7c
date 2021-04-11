@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full-width {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* header h1 {
+    border: 1px solid rgb(141, 196, 250);
+} */
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* .hero {
+    border: 1px solid rgb(207, 87, 87);
+} */
+
+.hero div {
+    background: url(../img/download.jpg) center center no-repeat;
+    height: 300px;
+}
+
+p {
+    padding: 1em 2em;
+    line-height: 1.5em;
+}
+
+.third-width {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one-third {
+    flex: 1;
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+}
+
+.one-third ul {
+    list-style: none;
+    padding: 0.4em;
+}
+
+.one-third ul li, h3 {
+    padding: 0 2em;
+    line-height: 1.5em;
+}
+
+
+
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .full-width {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        padding-left: 4em;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        padding-right: 3em;
+    }
+
+    .nav-menu ul li {
+        padding: 0 1em;
+    }
+
+    .third-width {
+        flex-direction: row;
+    }
+
+    .middle {
+        border-left: 1px solid slategray;
+        border-right: 1px solid slategray;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .full-width p {
+        padding: 0 4.2em;
+    }
+
+    .one-third ul li, h3 {
+        padding-left: 4.2em;
+    }
+}
